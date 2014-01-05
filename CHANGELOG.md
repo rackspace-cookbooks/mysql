@@ -3,6 +3,30 @@ mysql Cookbook CHANGELOG
 This file is used to list changes made in each version of the mysql cookbook.
 
 
+v4.0.14
+-------
+Fixing style cops
+
+
+v4.0.12
+-------
+### Bug
+- **[COOK-4068](https://tickets.opscode.com/browse/COOK-4068)** - rework MySQL Windows recipe
+
+### Improvement
+- **[COOK-3801](https://tickets.opscode.com/browse/COOK-3801)** - Add innodb_adaptive_flushing_method and innodb_adaptive_checkpoint
+
+
+v4.0.10
+-------
+fixing metadata version error. locking to 3.0
+
+
+v4.0.8
+------
+Locking yum dependency to '< 3'
+
+
 v4.0.6
 ------
 # Bug
