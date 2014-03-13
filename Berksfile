@@ -1,6 +1,6 @@
 def rackspace_cookbook(name, version = '>= 0.0.0', options = {})  
   cookbook(name, version, {
-    git: "git@github.com:rackspace-cookbooks/#{name}.git"
+    git: "https://github.com/rackspace-cookbooks/#{name}"
   }.merge(options))
 end 
 
